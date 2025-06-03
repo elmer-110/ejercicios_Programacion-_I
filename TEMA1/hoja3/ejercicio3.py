@@ -1,6 +1,6 @@
 frutas=[]
 for i in range(5):
-    fruta= input(f"Introduce una fruta{i+1}: ").lower(
+    fruta= input(f"Introduce una fruta {i+1}: ").lower(
         frutas.append(fruta))
 
 if "fresa" in frutas:
