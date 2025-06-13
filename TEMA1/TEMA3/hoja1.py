@@ -12,5 +12,17 @@ matriz=[
     [7, 8, 9]
 ]
 
-columna=devolver_columna(matriz, 1)
+columna=devolver_columna(matriz,2)
 print(columna)
+
+# Crear una matriz 3x3 mediante bucles
+matriz_bucles = []
+for i in range(3):
+    fila = []
+    for j in range(3):
+        fila.append(int(input(f"Introduce el valor para la posición [{i}][{j}]: ")))
+    matriz_bucles.append(fila)
+
+print("Matriz creada mediante bucles:")
+for fila in matriz_bucles:
+    print(fila)
