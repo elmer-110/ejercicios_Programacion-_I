@@ -29,7 +29,7 @@ def imprimir_tablero():
         print("\n----------------------------")
 def salir():
     print("hasta luego...")
-    return exit
+    
 imprimir_tablero()
 mover_pieza(0,1,1,0) ### casilla de origen (x,y) casilla de destino (x,y)=(x,y;x,y)
 print("\ndespues del movimiento:")
