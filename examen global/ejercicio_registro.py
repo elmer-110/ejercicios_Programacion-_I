@@ -1,3 +1,5 @@
+
+
 def registrar_participantes():
     nombres=[]
     while True:
@@ -6,7 +8,7 @@ def registrar_participantes():
             break
         nombres.append(solicitar_nombre)
     return(nombres)
-
+print(registrar_participantes())
 
 participantes_elegidos=[]
 def identificar_posiciones(participantes,participantes_elegidos):
@@ -28,12 +30,7 @@ def actualizar_registro(participantes,poscion,nuevos_participantes):
     return 
 
 
-print(registrar_participantes())
-participantes=registrar_participantes()
-print(identificar_posiciones(participantes,participantes_elegidos))
-print(actualizar_registro(participantes,poscion,nuevos_participantes))
+participantes_elegidos=["juan","jose"]
 
-participantes_elegidos=["manuel","jose","miguel"]
-participantes[]=
 
 
